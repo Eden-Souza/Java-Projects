@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="reLastEntityCreationPackage" value="escola/src/main/java/com/onlinecourse/Model" />
+    <option name="reverseEngineeringLastDbConnectionId" value="2a73898d-848f-4501-81d5-fcb630da0fd3" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="escola" name="escola" framework="JPA" ormUnit="escola:escola" defaultDataSourceId="2a73898d-848f-4501-81d5-fcb630da0fd3" />
+    </persistence-units>
+  </component>
+</project>
