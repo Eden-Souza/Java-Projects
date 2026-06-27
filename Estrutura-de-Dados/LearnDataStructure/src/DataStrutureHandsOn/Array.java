@@ -3,7 +3,7 @@ package DataStrutureHandsOn;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class DataStructure {
+public class Array {
 
     public static class ArrayExercise1{
         static void main(String[] args) {
@@ -44,7 +44,6 @@ public class DataStructure {
             System.out.println("The average grade is " + acumulator / grades.length);
         }
         }
-
     public static class ArrayExercise3 {
         void main() {
             /* Developer an array of names and verify there is an specific name into that
@@ -67,7 +66,6 @@ public class DataStructure {
             }
         }
     }
-
 }
 
 
