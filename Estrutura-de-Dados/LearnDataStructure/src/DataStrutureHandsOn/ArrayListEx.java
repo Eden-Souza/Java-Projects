@@ -1,8 +1,8 @@
 package DataStrutureHandsOn;
 
-import java.security.IdentityScope;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListEx {
@@ -24,4 +24,43 @@ public class ArrayListEx {
             System.out.println(cityNames);
         }
     }
+
+    public static class ArrayListExercises2 {
+        static void main( String[] args) {
+            List<Integer> numbers = new ArrayList<>();
+                for (int i = 0; i < 10; i++) {
+                    numbers.add(i);
+                }
+                IO.println(numbers);
+            }
+    }
+
+    public static class ArrayListExercises3 {
+        static void main( String[] args) {
+            int counter = 0;
+            List<Integer> numbers = new ArrayList<>();
+
+            while (counter < 10) {
+                numbers.add(counter);
+                counter++;
+            }
+            IO.println(numbers);
+
+        }
+    }
+
+    public static class ArrayListExercises4 {
+        static void main( String[] args) {
+            List<Integer> numbers = new LinkedList<>();
+
+            for  (int i = 0; i < 10; i++) {
+                numbers.add(i);
+            }
+
+            IO.println(numbers);
+
+        }
+    }
+
 }
+

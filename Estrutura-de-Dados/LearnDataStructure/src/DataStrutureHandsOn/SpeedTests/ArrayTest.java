@@ -1,4 +1,6 @@
-package DataStrutureHandsOn.VelocityTests;
+package DataStrutureHandsOn.SpeedTests;
+
+import java.util.Collections;
 
 public class ArrayTest {
     static final int arrayLength = 10000000;
@@ -39,6 +41,7 @@ public class ArrayTest {
 
         long startTimeNotFind = System.nanoTime();
         linearSearchMethod(arrayBuild, arrayLength + 1);
+
         long endTimeNotFind = System.nanoTime();
 
         System.out.println("Time to Not Find " + (endTimeNotFind - startTimeNotFind) + " ns");
@@ -88,8 +91,9 @@ public class ArrayTest {
         System.out.println("Time to Not Find " + (endTimeNotFind - startTimeNotFind) + " ns");
 
 
-
     }
+
+
 
     void main() {
         System.out.println("ArrayTest Linear Search");
@@ -98,8 +102,9 @@ public class ArrayTest {
         binarySearchApplication();
 
 
-    }
-}
 
+    }
+
+}
 
 
